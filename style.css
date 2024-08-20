@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.parte-1{
+    margin-bottom: 26px;
+}
+
+.parte-1 h1, .sobre-titulo, .autor, .data{
+    margin-left: 235px;
+}
+
+.parte-1 a{
+    width: 1388px;
+    height: 32px;
+    position: relative;
+    left: 17px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+    text-decoration: none;
+}
+
+.parte-1 h1{
+    color: #111111;
+    width: 969px;
+    height: 256px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    margin-top: 42px;
+}
+
+.parte-1 .sobre-titulo{
+    color: #555555;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 839px;
+    height: 84px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.parte-1 .autor{
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.parte-1 .autor span{
+    font-weight: 400;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #B0AFAF;
+    margin: 0 210px;
+}
+
+.parte-2{
+    margin-left: 375px;
+    margin-right: 396px;
+    font-size: 20px;
+}
+
+.parte-2 .texto-1{
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 69px;
+    margin-bottom: 14px;
+}
+
+.parte-2 span, .lista{
+    color: #A6130A;
+}
+
+.parte-2 .lista{
+    margin-top: 14px;
+    margin-left: 41px;
+    margin-bottom: 25px;
+}
+
+.parte-2 .texto-2{
+    margin-bottom: 17px;
+}
+
+.parte-2 h3{
+    color: #333333;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 18.5px;
+    margin-bottom: 32.05px;
+}
+
+.parte-2 h2{
+    color: #111111;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 18.8px;
+}
+
+.parte-2 .citacao{
+    color: #333333;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 22px;
+    margin-bottom: 24px;
+    border-left: 3px solid #A6130A;
+    padding-left: 14px;
+}
